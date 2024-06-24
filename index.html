@@ -1,13 +1,104 @@
-<img src="SOFTENGIENR.jpg" width = '400px' height = '300px'>
-
-<h1>COMPUTER HARDWARE COMPONENTS</h1>
-
-<h3>Case</h3>
-<h3>Motherboard</h3>
-<h3>Power Supply Unit</h3>
-<h3>CPU</h3>
-<h3>Heatsink</h3>
-<h3>RAM</h3>
-<h3>Harddrive</h3>
-<h3>Graphics Card</h3>
-<h3></h3>das
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming Laptops</h1>
+    </header>
+    <main>
+        <section class="selection">
+            <h2>Select Laptops</h2>
+            <select id="laptop1" class="laptop-select">
+                <option value="">-- Select Laptop 1 --</option>
+                <option value="acer">Acer Predator Neo 16"</option>
+                <option value="msi">MSI Pulse Series 17.3"</option>
+                <option value="alienware">Alienware m16 R2 16"</option>
+                <option value="lenovo">Lenovo Legion Slim 5i 16"</option>
+            </select>
+            <select id="laptop2" class="laptop-select">
+                <option value="">-- Select Laptop 2 --</option>
+                <option value="acer">Acer Predator Neo 16"</option>
+                <option value="msi">MSI Pulse Series 17.3"</option>
+                <option value="alienware">Alienware m16 R2 16"</option>
+                <option value="lenovo">Lenovo Legion Slim 5i 16"</option>
+            </select>
+            <select id="laptop3" class="laptop-select">
+                <option value="">-- Select Laptop 3 --</option>
+                <option value="acer">Acer Predator Neo 16"</option>
+                <option value="msi">MSI Pulse Series 17.3"</option>
+                <option value="alienware">Alienware m16 R2 16"</option>
+                <option value="lenovo">Lenovo Legion Slim 5i 16"</option>
+            </select>
+        </section>
+        <section class="comparison">
+            <h2>Comparison Table</h2>
+            <table id="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Specs</th>
+                        <th id="laptop1-name">Laptop 1</th>
+                        <th id="laptop2-name">Laptop 2</th>
+                        <th id="laptop3-name">Laptop 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Price</td>
+                        <td id="laptop1-price"></td>
+                        <td id="laptop2-price"></td>
+                        <td id="laptop3-price"></td>
+                    </tr>
+                    <tr>
+                        <td>Processor</td>
+                        <td id="laptop1-processor"></td>
+                        <td id="laptop2-processor"></td>
+                        <td id="laptop3-processor"></td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td id="laptop1-storage"></td>
+                        <td id="laptop2-storage"></td>
+                        <td id="laptop3-storage"></td>
+                    </tr>
+                    <tr>
+                        <td>Memory</td>
+                        <td id="laptop1-memory"></td>
+                        <td id="laptop2-memory"></td>
+                        <td id="laptop3-memory"></td>
+                    </tr>
+                    <tr>
+                        <td>Graphics</td>
+                        <td id="laptop1-graphics"></td>
+                        <td id="laptop2-graphics"></td>
+                        <td id="laptop3-graphics"></td>
+                    </tr>
+                    <tr>
+                        <td>Display</td>
+                        <td id="laptop1-display"></td>
+                        <td id="laptop2-display"></td>
+                        <td id="laptop3-display"></td>
+                    </tr>
+                    <tr>
+                        <td>Connectivity</td>
+                        <td id="laptop1-connectivity"></td>
+                        <td id="laptop2-connectivity"></td>
+                        <td id="laptop3-connectivity"></td>
+                    </tr>
+                    <tr>
+                        <td>OS</td>
+                        <td id="laptop1-os"></td>
+                        <td id="laptop2-os"></td>
+                        <td id="laptop3-os"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
