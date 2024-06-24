@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #23232b;
+    color: #ececed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #241a44;
+    color: #06cfce;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #292a50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #06cfce;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.laptop-select {
+    padding: 0.5rem;
+    border: 1px solid #06cfce;
+    border-radius: 4px;
+    background-color: #241a44;
+    color: #ececed;
+    font-size: 1rem;
+}
+
+.comparison {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #292a50;
+    color: #ececed;
+    border: 1px solid #06cfce;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #06cfce;
+    text-align: center;
+}
+
+thead {
+    background-color: #285b77;
+}
+
+thead th {
+    color: #06cfce;
+    font-size: 1.2rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #241a44;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #292a50;
+}
+
+tbody td {
+    color: #ececed;
+}
+
+.selection select {
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .selection {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .selection select {
+        margin-bottom: 1rem;
+    }
+}
